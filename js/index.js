@@ -98,7 +98,7 @@ window.getData(dataURL)
     <p class="notification__description">Попробуйте перезагрузить сайт</p>
   </section>`));
   })
-  .finally(() => loadingAlert.remove())
+  .finally(() => loadingAlert.remove());
 
 filtersForms.forEach((form) => {
   form.addEventListener(`change`, () => {
